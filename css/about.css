@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+  } */
+
+.container {
+  width: 65%;
+  margin: auto;
+}
+
+#nave-ber {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 43px;
+}
+.logo {
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 1.2rem;
+}
+.menu-ber {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(42, 42, 42);
+  font-family: "Akaya Telivigala", cursive;
+}
+
+.hero-div {
+  height: 650px;
+  max-width: 1250px;
+  background-image: url(../img/logo9.jpg);
+  background-position: center center;
+  background-size: cover;
+  margin: 95px auto;
+}
+
+.about-us-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about-us-text {
+  width: 515px;
+}
+.about-us-img img {
+  width: 495px;
+  height: 365px;
+  object-fit: cover;
+}
+.about-us-text h2 {
+  font-size: 2.2rem;
+  font-weight: 850;
+  color: rgb(53, 53, 53);
+}
+.about-us-text p {
+  margin: 75px 0 0 22px;
+  color: rgb(134, 134, 134);
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 22px;
+}
+
+.article-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 165px 0;
+}
+
+.article-div p {
+  margin-top: 35px;
+  margin-left: 30px;
+  padding-right: 15px;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 22px;
+  color: rgb(134, 134, 134);
+}
+.article-div h3 {
+  font-size: 2rem;
+  color: rgb(53, 53, 53);
+}
+.article-div-1 {
+  margin-right: 12px;
+}
+.article-div-2 {
+  margin-left: 12px;
+}
+
+.hero-div-2 {
+  height: 650px;
+  max-width: 1250px;
+  background-image: url(../img/a1cover.jpg);
+  background-position: center center;
+  background-size: cover;
+  margin: auto;
+}
+
+.my-flex-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 160px 0px;
+}
+.my-flex-section ul li {
+  list-style: none;
+  font-family: "Akaya Telivigala", cursive;
+  color: rgb(134, 134, 134);
+  padding-bottom: 10px;
+  font-size: 21px;
+}
+.my-flex-section h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: rgb(53, 53, 53);
+}
+
+.select-and-go div {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 325px;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.select-and-go {
+  display: flex;
+  justify-content: center;
+}
+.select-and-go div:hover {
+    color: #000;
+    background-color: rgb(216, 216, 216);
+    transition: 0.5s;
+}
+.select-and-go a {
+   text-decoration: none;
+   color: rgb(255, 254, 254);
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 175px;
+  background-color: rgb(223, 223, 223);
+  padding: 35px;
+}
+footer div {
+  line-height: 2rem;
+  color: rgb(56, 56, 56);
+}
+
+footer div h3 {
+  font-family: "Akaya Telivigala", cursive, arial;
+}
+
+footer div li{
+  list-style: none;
+}
+footer div a:hover {
+ color: rgb(0, 0, 0);
+ transition: 0.5s;
+}
+
+footer div a {
+  text-decoration: none;
+  color: rgb(119, 119, 119);
+}
