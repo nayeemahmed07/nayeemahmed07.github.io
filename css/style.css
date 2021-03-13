@@ -122,10 +122,18 @@ body {
   justify-content: center;
 }
 .select-and-go div:hover {
-    color: #000;
+    /* color: #000; */
     background-color: rgb(216, 216, 216);
     transition: 0.5s;
 }
+.select-and-go a {
+  color: #fff;
+  text-decoration: none;
+}
+/* .select-and-go a:hover {
+  color: #000;
+} */
+
 
 footer {
     display: flex;
