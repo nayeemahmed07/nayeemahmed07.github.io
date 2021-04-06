@@ -18,7 +18,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 75%;
+  max-width: 75%;
   margin: auto;
   padding: 45px;
 }
@@ -82,7 +82,6 @@ nav a:hover::after {
   text-transform: uppercase;
   margin: 30px 15px;
   text-align: center;
-  ;
 }
 
 .text-section a span {
@@ -97,8 +96,14 @@ nav a:hover::after {
   border-radius: 30px;
 }
 
-.text-section a:hover span{
+.text-section a:hover span {
   width: 100%;
 }
 
 
+
+@media only screen and (max-width: 600px) {
+  nav {
+    
+  }
+}
