@@ -1,0 +1,222 @@
+/* =============== */
+/* BASIC SETUP */
+/* =============== */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.review-container {
+  max-width: 1200px;
+  width: 97%;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+/* =============== */
+/* Review */
+/* =============== */
+
+.review {
+  padding: 10rem 0;
+  background: linear-gradient(rgba(215, 70, 128, 0.7), rgba(215, 70, 128, 0.7)),
+    url(img/testimonial-bg.jpg);
+  color: rgba(255, 255, 255, 0.86);
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+
+.review-heading {
+  text-align: center;
+}
+
+.review-heading h2 {
+  font-size: 2.5rem;
+}
+
+.review-heading h3::after {
+  content: "";
+  display: block;
+  height: 0.3rem;
+  width: 3rem;
+  margin: 1rem auto;
+  background-color: #b73c6d;
+}
+
+.review-heading p {
+  font-size: 1.8rem;
+}
+
+.review-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-item {
+  margin: 2.5rem 0;
+  flex-basis: 45%;
+  display: flex;
+}
+
+/* .review-item div:nth-child(2) {
+    flex-basis: 20rem;
+} */
+
+.client-img img {
+  height: 8rem;
+  width: 8rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 3rem 0 0;
+}
+
+/* =============== */
+/* Review media */
+/* =============== */
+
+@media only screen and (max-width: 700px) {
+  .review-container {
+    flex-direction: column;
+  }
+
+  .client-img img {
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 1rem 0.5rem 0 0;
+  }
+}
+
+/* My form */
+
+.my-form {
+  background-color: #3c5499;
+  text-align: center;
+  color: #fff;
+  padding: 75px 0;
+}
+
+.my-form h2 {
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+
+.my-form h2::after {
+  content: "";
+  display: block;
+  height: 0.3rem;
+  width: 6rem;
+  background-color: #273a71;
+  margin: 1rem auto;
+}
+
+.my-form p {
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.my-form form {
+  margin-top: 50px;
+  max-width: 880px;
+  margin: auto;
+}
+
+.upar-box {
+  display: flex;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  /* margin: 15px; */
+  background-color: #273a71;
+  box-sizing: border-box;
+  margin: 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  padding: 15px;
+}
+
+form textarea {
+  width: 98%;
+  padding: 15px;
+}
+
+.btn-submit {
+  background-color: #30bae7;
+  border: none;
+  border-bottom: 3px solid #299ec5;
+  padding: 18px 35px;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 35px;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+.btn-submit:hover {
+  cursor: pointer;
+}
+
+/* =============== */
+/* Form media */
+/* =============== */
+
+@media only screen and (max-width: 700px) {
+  .upar-box {
+    flex-direction: column;
+    width: 98%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  form textarea {
+    margin: 20px 0;
+  }
+
+  form {
+    /* max-width: 100%; */
+    width: 96%;
+    margin: auto;
+  }
+}
+
+
+/* =============== */
+/* Footer */
+/* =============== */ 
+
+footer {
+  margin: 0;
+  padding: 0;
+  background-color: #1e2d5a;
+  padding: 50px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 20px;
+  color: aliceblue;
+  font-size: 22px;
+}
+
+footer ul li a {
+
+}
