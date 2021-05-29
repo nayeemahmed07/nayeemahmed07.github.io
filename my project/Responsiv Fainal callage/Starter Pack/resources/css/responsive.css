@@ -1,0 +1,45 @@
+/* HERO SECTION */
+
+@media (max-width: 1020px) {
+    .hero__section--div {
+      flex-direction: column;
+    }
+  
+    .item__secound {
+      padding: 0 4.2em 6em 0;
+      margin: 0;
+    }
+  
+    .item__secound p {
+      font-size: 1.4rem;
+      line-height: 1.5em;
+    }
+    
+    .item__secound a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem;
+      margin-top: 1.4em;
+    }
+  }
+  
+  @media only screen and (max-width: 530px) {
+    .header__section--div {
+      flex-direction: column;
+    }
+  
+    #hero__section .hero__item h1 {
+      font-size: 5rem;
+    }
+  
+    #header__section ul {
+        text-align: center;
+    }
+  
+    #header__section ul li {
+      display: inline-block;
+      margin-left: 1em;
+      margin-top: 6px;
+    }
+  }
+  
