@@ -1,0 +1,171 @@
+/* ======================================
+
+Template Name: Mukesh Goala
+Template URI: https://moshiur.dev/projects/paul-lapkin/
+Author: Nayeem Ahmed
+Author URI: 
+Version: 1.0
+Description: An awesome personal portolio template.
+Support: 
+
+========================================*/
+
+/* ======================================
+
+CSS INDEX
+---------
+1. Google Fonts
+2. Common CSS
+3. REUSABLE COMPONENTS
+4. HERO SECTION
+
+========================================*/
+
+/* 1. Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* 2. Common CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    color: #000;
+    background: #fff;
+    font-size: 62.5%;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+a:link,
+a:hover {
+    text-decoration: none;
+}
+
+/* 3. REUSABLE COMPONENTS */
+
+body {
+    background-image: url(../img/bg_pattern.png);
+}
+
+.containar {
+    max-width: 1170px;
+    width: 94%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+.space-between {
+    justify-content: space-between;
+}
+.ta-c {
+    align-items: center;
+}
+
+
+/* 4. HERO SECTION */
+
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/photos/food_photography/Picture1.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+    position: relative;
+}
+
+.hero-text {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-text h1 {
+   font-size: 6.5rem;
+   /* border-top: 2px solid #fff;
+   border-bottom: 2px solid #fff; */
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 0.3rem;
+   margin: 0;
+}
+
+.hero-text h1::before {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+}
+
+.hero-text h1::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+}
+
+.hero-text span {
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    font-size: 2.3rem;
+    display: inline-block;
+    margin-top: 1.4rem;
+}
+
+.down-menu {
+    position: absolute;
+    bottom: 10vh;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.down-menu i {
+    color: rgb(168, 168, 168);
+    font-size: 3.2rem;
+}
+
+/* NAV */
+nav {
+    margin-top: 2.5rem;
+}
+
+.nav-div {
+    max-width: 1290px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.logo a img {
+    height: 100px;
+}
+
+.menu i {
+    font-size: 3rem;
+    color: rgb(226, 226, 226);
+    border: 0.1rem solid #fff;
+    padding: 0.8rem 1.2rem;
+    font-weight: 550;
+}
+
+
+
+
+
+
+
+
+
