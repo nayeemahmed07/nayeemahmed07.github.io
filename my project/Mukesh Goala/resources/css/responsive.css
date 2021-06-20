@@ -1,0 +1,185 @@
+@media only screen and (max-width: 1200px) {
+  .work__grid-containar div {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .work__grid-containar div {
+    height: 28rem;
+  }
+}
+@media only screen and (max-width: 1036px) {
+  .process__div div {
+    background: #10c6fc;
+    width: 24%;
+    padding: 7rem 0;
+    margin: 0 7px;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.5rem;
+  }
+
+  .work__grid-containar div {
+    width: 33.333333%;
+  }
+
+  .about_me-container div img {
+    height: auto;
+    width: 500px;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  html,
+  body {
+    font-size: 58.5%;
+  }
+
+  div#lightboxed--bttn_close {
+    top: 3rem;
+    right: 3rem;
+  }
+
+  .close_icone {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    /* right: -77rem; */
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about_me-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_me-container div img {
+    margin-bottom: 4em;
+  }
+  .about_me-container div:first-child {
+    flex-basis: 37%;
+    /* clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); */
+    clip-path: none;
+  }
+  .process__div {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .process__div div {
+    width: 48%;
+    margin: 1% 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  html,
+  body {
+    font-size: 55.5%;
+  }
+
+  .hero-text h1 {
+    font-size: 4.5rem;
+  }
+  h2 {
+    font-size: 3.2rem;
+  }
+  h3 {
+    font-size: 2.4rem;
+  }
+  .hero-text span {
+    font-size: 1.6rem;
+  }
+
+  .education__div {
+    flex-direction: column;
+  }
+  .education__div div + div {
+    margin-left: 0rem;
+    margin-top: 2.2rem;
+  }
+
+  .contact__me-div {
+    flex-direction: column;
+  }
+
+  .div_item div {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 4.5rem 3.5rem;
+  }
+
+  .tre-div-1 {
+    width: 3rem;
+  }
+
+  #trestimonial .signecure {
+    margin-bottom: 0rem;
+    width: 8rem;
+  }
+
+  #trestimonial p {
+    margin-top: 2rem;
+  }
+  .filter__btn button {
+    font-size: 1rem;
+    margin: 0 0.2rem;
+    padding: 0.5em 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .work__grid-containar div {
+    height: 22rem;
+  }
+  .about_me-container div img {
+    border-radius: 1rem;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .logo a img {
+    height: 35px;
+  }
+  .menu i {
+    font-size: 1.4rem;
+    color: rgb(226, 226, 226);
+    border: 0.1rem solid rgb(179, 179, 179);
+    border-radius: 0.4rem;
+    padding: 0.5rem 0.7rem;
+    font-weight: 550;
+}
+
+  .work__grid-containar div {
+    height: 18rem;
+  }
+
+  .filter__btn button {
+    font-size: 0.8rem;
+    margin: 0 0.1rem;
+    padding: 0.5em 1rem;
+  }
+
+  .process__div div {
+    width: 90%;
+    margin: 1% 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .hero-text h1 {
+    font-size: 3.2rem;
+  }
+  .hero-text span {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  .work__grid-containar div {
+    height: 16rem;
+  }
+}
