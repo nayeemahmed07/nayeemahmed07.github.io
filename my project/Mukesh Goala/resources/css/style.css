@@ -243,7 +243,7 @@ section + section {
   transform: translate(-50%);
   animation: 2s down-menu_any infinite ease-in;
   cursor: pointer;
-  z-index: 994;
+  z-index: 1000;
 }
 
 @keyframes down-menu_any {
