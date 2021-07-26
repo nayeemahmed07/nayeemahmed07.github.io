@@ -287,6 +287,7 @@ nav.uk-active {
 .logo {
   z-index: 1000;
   cursor: pointer;
+  visibility: hidden;
 }
 
 .logo a img {
