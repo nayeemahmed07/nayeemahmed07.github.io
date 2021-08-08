@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- REQUIRED META TAGS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="An awsome personal portfolio template." />
+    <!-- REQUIRED TITLE TAGS -->
+    <title>Mukesh Goala</title>
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="vendors/jquery-plagin/uikit/css/uikit.min.css"
+    />
+    <!-- Fevicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="resources/img/favicon.png"
+    />
+    <!-- Litebox-plagin -->
+    <link
+      rel="stylesheet"
+      href="vendors/jquery-plagin/fullscreen-lightbox-gallery/js/lightboxed/lightboxed.css"
+    />
+    <!-- Wow plagin -->
+    <link
+      rel="stylesheet"
+      href="vendors/jquery-plagin/WOW-master/animate.css"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="vendors/css/normalize.css" />
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <link rel="stylesheet" href="resources/css/responsive.css" />
+  </head>
+
+  <body>
+    <!-- START HERO SECTON -->
+    <section class="hero-section" id="particles-js">
+      <header id="hero">
+        <nav uk-sticky="top: 300; bottom: #animation">
+          <div class="flex space-between containar my__nave">
+            <div class="logo">
+              <a href="#">
+                <img src="resources/img/logo.png" alt="" />
+              </a>
+            </div>
+            <div class="menu">
+              <a onclick="openMenu()">
+                <i class="fas fa-bars"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+        <div class="my__menu" id="navbar">
+          <ul>
+            <li><a href="#" onclick="closeMenu()">home</a></li>
+            <li><a href="#me_id" onclick="closeMenu()">ABOUT ME</a></li>
+            <li>
+              <a href="#process__section" onclick="closeMenu()"
+                >Working Process</a
+              >
+            </li>
+            <li>
+              <a href="#work__section" onclick="closeMenu()">Latest Works</a>
+            </li>
+            <li><a href="#contact__me" onclick="closeMenu()">contact</a></li>
+          </ul>
+          <div class="close_icone" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+      </header>
+      <div class="hero-text container">
+        <h1>Mukesh Goala</h1>
+        <span>#Aesthetics #TravelTheWorld #NaturePerfection</span>
+      </div>
+      <div class="down-menu">
+        <a href="#me_id"><i class="fas fa-chevron-circle-down"></i></a>
+      </div>
+    </section>
+    <!-- END START HERO SECTON -->
+
+    <!-- START ABOUT ME SECTION -->
+    <section id="me_id" class="about__me-section">
+      <div class="containar flex space-between about_me-container">
+        <div class="my__img">
+          <img
+            src="resources/img/about_me-img-2.jpg"
+            alt="Me"
+            class="wow fadeInLeft"
+          />
+        </div>
+        <div class="my__description">
+          <h3>Mukeshography Portfolio</h3>
+          <p>
+            Hi! My Name is Mukesh. I am a lifestyle freelance photographer who
+            absolutely loves his job and everything that comes with it. I
+            appreciate people I meet, the places I go,the hours I keep, and the
+            spontaneity in every shoot. I appreciate the raw reality of everyday
+            life, the fleeting beauty of those in between moments, and I do my
+            very best to take every picture with that in mind.
+            <br />
+            <br />
+            I want my views to relate to my photographs through recognition of
+            and familiarity with situations, the emotions and the energy so much
+            that the wonder if they are looking at a picture of someone they
+            know. I do cover photography done on a per contract basis..Those who
+            are looking for a photographer please do not hesitate to knock me.
+            Thanks ​
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT ME SECTION -->
+
+    <!-- START PROCESS SECTION -->
+    <section id="process__section">
+      <div class="work__heading mb-35">
+        <h2>My Working Process</h2>
+        <p>Hi, i’m Mukesh Goala, Experience Crafter from Canada.</p>
+      </div>
+      <div class="containar flex process__div">
+        <div class="wow fadeInLeft" data-wow-duration="1s">
+          <i class="fas fa-desktop"></i>
+          <h3>Design</h3>
+        </div>
+        <div
+          class="wow fadeInLeft"
+          data-wow-duration="1s"
+          data-wow-delay="0.5s"
+        >
+          <i class="far fa-file-code"></i>
+          <h3>Development</h3>
+        </div>
+        <div class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+          <i class="fas fa-text-height"></i>
+          <h3>testing</h3>
+        </div>
+        <div
+          class="wow fadeInLeft"
+          data-wow-duration="1s"
+          data-wow-delay="1.5s"
+        >
+          <i class="far fa-paper-plane"></i>
+          <h3>launch</h3>
+        </div>
+      </div>
+    </section>
+    <!-- END PROCESS SECTION -->
+
+    <!-- START EDUCATION SECTION -->
+    <section id="education__section">
+      <div class="containar flex education__div">
+        <div>
+          <h3>Work Experience</h3>
+          <h4>Mad Max Design</h4>
+          <h4>OCT 2013 - june 2014</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat.
+          </p>
+          <hr />
+          <h4>Crazy Design</h4>
+          <h4>OCT 2014 - june 2015</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat.
+          </p>
+        </div>
+        <div>
+          <h3>Education</h3>
+          <h4>Maddison University</h4>
+          <h4>OCT 2013 - june 2014</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat.
+          </p>
+          <hr />
+          <h4>Max Design & Art Institute</h4>
+          <h4>OCT 2014 - Present</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- END EDUCATION SECTION -->
+
+    <!-- START WORK SECTION -->
+    <section id="work__section">
+      <div class="work__div">
+        <div class="work__heading">
+          <h2>My Latest Works</h2>
+          <p>Hi, i’m Mukesh, Experience Crafter from Bangladesh.</p>
+        </div>
+        <div class="filter__btn">
+          <button type="button" data-filter="all">All</button>
+          <button type="button" data-filter=".category-a">Food</button>
+          <button type="button" data-filter=".category-b">Birthday</button>
+          <button type="button" data-filter=".category-c">Portraits</button>
+          <button type="button" data-filter=".category-d">Cloth</button>
+          <button type="button" data-filter=".category-e">Interior</button>
+          <button type="button" data-filter=".category-f">Event</button>
+        </div>
+        <div class="work__grid-containar">
+          <div class="mix category-a" data-order="1">
+            <a href="resources/img/Picture1.jpg">
+              <img
+                src="resources/img/Picture1.jpg"
+                alt="food"
+                class="lightboxed"
+              />
+            </a>
+          </div>
+          <div class="mix category-b" data-order="2">
+            <a href="resources/img/photos/Birthday_photography/Picture23.jpg">
+              <img
+                src="resources/img/photos/Birthday_photography/Picture23.jpg"
+                alt=""
+                class="lightboxed"
+              />
+            </a>
+          </div>
+          <div class="mix category-d">
+            <a href="">
+              <img
+                src="resources/img/photos/Cloths_photography/Picture17.jpg"
+                alt="food"
+                class="lightboxed"
+              />
+            </a>
+          </div>
+          <div class="mix category-e">
+            <a href="">
+              <img
+                src="resources/img/photos/Interior_photography/Picture10.jpg"
+                alt=""
+                class="lightboxed"
+              />
+            </a>
+          </div>
+          <div class="item_5 mix category-f">
+            <img
+              src="resources/img/photos/Corporate_Event/Picture30.jpg"
+              alt="food"
+              class="lightboxed"
+            />
+          </div>
+          <div class="item_5 mix category-c">
+            <a href="">
+              <img
+                src="resources/img/photos/Portraits/Picture37.jpg"
+                alt="food"
+                class="lightboxed"
+              />
+            </a>
+          </div>
+          <div class="item_5 mix category-a">
+            <a href="">
+              <img
+                src="resources/img/photos/food_photography/Picture2.jpg"
+                alt="food"
+                class="lightboxed"
+              />
+            </a>
+          </div>
+          <div class="item_5 mix category-b">
+            <a href="">
+              <img
+                src="resources/img/photos/Birthday_photography/Picture27.jpg"
+                alt="food"
+                class="lightboxed"
+              />
+            </a>
+          </div>
+          <div class="item_5 mix category-c">
+            <a href="">
+              <img
+                src="resources/img/photos/Portraits/Picture39.jpg"
+                alt="food"
+                class="lightboxed"
+              />
+            </a>
+          </div>
+          <div class="item_5 mix category-d">
+            <a href="">
+              <img
+                src="resources/img/photos/Cloths_photography/Picture18.jpg"
+                alt="food"
+                class="lightboxed"
+              />
+            </a>
+          </div>
+          <div class="item_5 mix category-e">
+            <a href="">
+              <img
+                src="resources/img/photos/Interior_photography/Picture9.jpg"
+                alt="food"
+                class="lightboxed"
+              />
+            </a>
+          </div>
+          <div class="item_5 mix category-f">
+            <a href="">
+              <img
+                src="resources/img/photos/Corporate_Event/Picture34.jpg"
+                alt="food"
+                class="lightboxed"
+              />
+            </a>
+          </div>
+          <div class="item_5 mix category-c">
+            <a href="">
+              <img
+                src="resources/img/photos/Portraits/Picture40.jpg"
+                alt="food"
+                class="lightboxed"
+              />
+            </a>
+          </div>
+          <div class="item_5 mix category-a">
+            <a href="">
+              <img
+                src="resources/img/photos/food_photography/Picture6.jpg"
+                alt="food"
+                class="lightboxed"
+              />
+            </a>
+          </div>
+          <div class="item_5 mix category-d">
+            <a href="">
+              <img
+                src="resources/img/photos/Cloths_photography/Picture22.jpg"
+                alt="food"
+                class="lightboxed"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END WORK SECTION -->
+
+    <!-- START TRESTIMONIAL SECTON -->
+    <section id="trestimonial">
+      <div class="containar">
+        <div class="tre-div">
+          <img
+            src="resources/img/Personal-Website-free-psd.png"
+            alt=""
+            class="tre-div-1"
+          />
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+            ullamcorper suscipit lobortis nisl ut aliquipex ea commodo
+            consequat.
+          </p>
+          <img class="signecure" src="resources/img/signeture.png" alt="Sig" />
+          <h4>Deniel Croft</h4>
+          <span>Creative Designer, Levy</span>
+        </div>
+      </div>
+    </section>
+    <!-- END TRESTIMONIYAS SECTON -->
+
+    <!-- START CONTACT ME -->
+    <section id="contact__me">
+      <div class="containar flex contact__me-div">
+        <form action="post" class="my-form clearfix">
+          <h3>LEAVE A MESSAGE</h3>
+          <input type="text" name="Name" placeholder="Name *" required />
+          <input type="email" name="Email" placeholder="Email *" required />
+          <input type="text" name="Subject" placeholder="Subject *" required />
+          <textarea name="Massage"></textarea>
+          <input type="submit" value="Hire Me!" class="submit__btn" />
+        </form>
+        <div class="div_item">
+          <div class="wow fadeInLeft" data-wow-duration="1s">
+            <h3>Address</h3>
+            <p>
+              Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block
+              SE(A), Gulshan-1, Dhaka 1212.
+            </p>
+          </div>
+          <div
+            class="wow fadeInLeft"
+            data-wow-duration="1s"
+            data-wow-delay="0.5s"
+          >
+            <h3>Phone</h3>
+            <p>017********</p>
+            <p>016********</p>
+          </div>
+          <div
+            class="wow fadeInLeft"
+            data-wow-duration="1s"
+            data-wow-delay="1.5s"
+          >
+            <h3>Web</h3>
+            <p>Mail: quicksayed@gmail.com</p>
+            <p>Website: dribbble.com/alisayed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END CONTACT ME -->
+
+    <!-- START FOOTER -->
+    <footer id="my__footer">
+      <ul>
+        <li>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-behance"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </li>
+      </ul>
+      <p>Copyright: Nayeem Ahmed, All Rights Reserved.</p>
+      <div class="go-to-top">
+        <a href="#" uk-totop uk-scroll></a>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- JQuary FILES -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Litebox-plagin -->
+    <script src="vendors/jquery-plagin/fullscreen-lightbox-gallery/js/lightboxed/lightboxed.js"></script>
+
+    <!-- Mixitup-plagin -->
+    <script src="vendors/jquery-plagin/patrickkunka-mixitup-61dac05/mixitup.min.js"></script>
+
+    <!-- Particle js -->
+    <script src="vendors/jquery-plagin/particles.js-master/particles.min.js"></script>
+    <script src="vendors/jquery-plagin/particles.js-master/app.js"></script>
+
+    <!-- UIkit JS -->
+    <script src="vendors/jquery-plagin/uikit/js/uikit.min.js"></script>
+    <script src="vendors/jquery-plagin/uikit/js/uikit-icons.min.js"></script>
+
+    <!-- Wow plagin -->
+    <script src="vendors/jquery-plagin/WOW-master/wow.min.js"></script>
+
+    <!-- Castom js -->
+    <script src="resources/js/caston.js"></script>
+  </body>
+</html>
