@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <div class="portfolio-main">
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <a href="#"><img src="assets/images/logo.svg" alt="logo"></a>
+                    </div>
+                    <!-- toggle bar -->
+                    <div class="toggle-bar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="navigation-bar">
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">services</a></li>
+                            <li><a href="#">my work</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li class="hire-btn"><a href="#">Hire me</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- main content -->
+        <div class="main-content">
+            <div class="container">
+                <div class="main-content-wrapper">
+                    <div class="col-left">
+                        <span>Hi i am Nayeem Ahmed</span>
+                        <h1>Freelancer | Fullstack Developer</h1>
+                        <p>Hello, My name is Nayeem! I'm a freelance Fullstack Web Developer.My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+
+                            I have a strong passion for the creativity and discipline that goes into front-end development.Keeping in mind scalability and clean code that is maintainable and readable.
+                        
+                            I’ve worked with companies of all shapes and sizes, so contact me if you’d like to work together on your next project.</p>
+                        <a href="#" class="btn-main">
+                            See my work
+                            <span> <img src="assets/images/arrow-right.svg" alt="arrow"></span>
+                        </a>
+                    </div>
+                    <div class="col-right">
+                        <img src="assets/images/john.svg" alt="Display image">
+                    </div>
+                </div>
+                <!-- experience -->
+                <div class="experience-section">
+                    <div class="experience-inner">
+                        <div class="col">
+                            <h3>2 years</h3>
+                            <p>experience</p>
+                        </div>
+                        <div class="col">
+                            <h3>28+</h3>
+                            <p>Happy clients</p>
+                        </div>
+                        <div class="col">
+                            <h3>35+</h3>
+                            <p>Projects completed</p>
+                        </div>
+                        <div class="col">
+                            <h3>12+</h3>
+                            <p>Award won</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script>
+    $('.toggle-bar').on('click', function (event) {
+        $('this').toggleClass('open');
+        $('.navigation-bar').slideToggle('200');
+    })
+</script>
+
+</html>
